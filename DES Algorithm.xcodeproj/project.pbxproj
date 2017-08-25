@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B952C5A91EB1EC7900971C19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B952C5A81EB1EC7900971C19 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B952C5A31EB1EC7900971C19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B93E2B441EB59C9900DF0C4C /* DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DES.h; sourceTree = "<group>"; };
+		B952C5A51EB1EC7900971C19 /* DES Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DES Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B952C5A81EB1EC7900971C19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B9B04A811EB49DEE0067E693 /* Encrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encrypt.h; sourceTree = "<group>"; };
+		B9E23A9A1EB465DC0032C1A8 /* key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		B9EA0E361EBA0151009FDDF8 /* Transfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Transfer.h; path = ../Transfer.h; sourceTree = "<group>"; };
+		B9EA0E371EBA01DC009FDDF8 /* box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		B9EA0E381EBA030C009FDDF8 /* descrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = descrypt.h; sourceTree = "<group>"; };
+		B9EA0E391EBA03A6009FDDF8 /* function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B952C5A21EB1EC7900971C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B952C59C1EB1EC7900971C19 = {
+			isa = PBXGroup;
+			children = (
+				B952C5A71EB1EC7900971C19 /* DES Algorithm */,
+				B952C5A61EB1EC7900971C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B952C5A61EB1EC7900971C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B952C5A51EB1EC7900971C19 /* DES Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B952C5A71EB1EC7900971C19 /* DES Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA0E361EBA0151009FDDF8 /* Transfer.h */,
+				B952C5A81EB1EC7900971C19 /* main.cpp */,
+				B9E23A9A1EB465DC0032C1A8 /* key.h */,
+				B9B04A811EB49DEE0067E693 /* Encrypt.h */,
+				B93E2B441EB59C9900DF0C4C /* DES.h */,
+				B9EA0E371EBA01DC009FDDF8 /* box.h */,
+				B9EA0E381EBA030C009FDDF8 /* descrypt.h */,
+				B9EA0E391EBA03A6009FDDF8 /* function.h */,
+			);
+			path = "DES Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B952C5A41EB1EC7900971C19 /* DES Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B952C5AC1EB1EC7900971C19 /* Build configuration list for PBXNativeTarget "DES Algorithm" */;
+			buildPhases = (
+				B952C5A11EB1EC7900971C19 /* Sources */,
+				B952C5A21EB1EC7900971C19 /* Frameworks */,
+				B952C5A31EB1EC7900971C19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DES Algorithm";
+			productName = "DES Algorithm";
+			productReference = B952C5A51EB1EC7900971C19 /* DES Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B952C59D1EB1EC7900971C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yi Zhou";
+				TargetAttributes = {
+					B952C5A41EB1EC7900971C19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B952C5A01EB1EC7900971C19 /* Build configuration list for PBXProject "DES Algorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B952C59C1EB1EC7900971C19;
+			productRefGroup = B952C5A61EB1EC7900971C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B952C5A41EB1EC7900971C19 /* DES Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B952C5A11EB1EC7900971C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B952C5A91EB1EC7900971C19 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B952C5AA1EB1EC7900971C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B952C5AB1EB1EC7900971C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B952C5AD1EB1EC7900971C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/boost/1.63.0/include,
+					/usr/local/Cellar/boost/1.63.0/bin,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.63.0/libs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B952C5AE1EB1EC7900971C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/boost/1.63.0/include,
+					/usr/local/Cellar/boost/1.63.0/bin,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.63.0/libs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B952C5A01EB1EC7900971C19 /* Build configuration list for PBXProject "DES Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B952C5AA1EB1EC7900971C19 /* Debug */,
+				B952C5AB1EB1EC7900971C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B952C5AC1EB1EC7900971C19 /* Build configuration list for PBXNativeTarget "DES Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B952C5AD1EB1EC7900971C19 /* Debug */,
+				B952C5AE1EB1EC7900971C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B952C59D1EB1EC7900971C19 /* Project object */;
+}
